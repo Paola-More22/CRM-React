@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "angy",
+      "empresa": "more",
+      "email": "correo@correo.com",
+      "telefono": "65656546",
+      "notas": "no quiere productos",
+      "id": 1
+    },
+    {
+      "nombre": "Karen",
+      "empresa": "Copitos ",
+      "email": "correo@correo.com",
+      "telefono": "46454654",
+      "notas": "Quiere copitos",
+      "id": 2
+    },
+    {
+      "nombre": "gina",
+      "empresa": "gina uñas",
+      "email": "correo@correo.com",
+      "telefono": "45454",
+      "notas": "quiere comprar esmaltes",
+      "id": 3
+    }
+  ]
+}
