@@ -5,9 +5,10 @@
     animation: sk-chase 2.5s infinite linear both;
     margin: auto;
     display: flex;
-  justify-content: center;
-  align-items: center;
-    
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
 
 }
 

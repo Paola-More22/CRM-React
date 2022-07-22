@@ -1,11 +1,11 @@
 {
   "clientes": [
     {
-      "nombre": "angy",
-      "empresa": "more",
+      "nombre": "Angy Actualizado",
+      "empresa": "more $$",
       "email": "correo@correo.com",
-      "telefono": "65656546",
-      "notas": "no quiere productos",
+      "telefono": "3107259800",
+      "notas": "no quiere productos, muchos mas ",
       "id": 1
     },
     {
@@ -23,6 +23,22 @@
       "telefono": "45454",
       "notas": "quiere comprar esmaltes",
       "id": 3
+    },
+    {
+      "nombre": "Antonio More",
+      "empresa": "motos",
+      "email": "correo@correo.com",
+      "telefono": "46454654",
+      "notas": "muchas motos",
+      "id": 5
+    },
+    {
+      "nombre": "Virginia Sierra",
+      "empresa": "Boutique ",
+      "email": "correo@correo.com",
+      "telefono": "35554",
+      "notas": "quiere mas prendas de vestir ",
+      "id": 7
     }
   ]
 }

@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Spinner from '../components/spinner'
 
 const VerCliente = () => {
 
     const [cliente, setCliente] = useState({})
     const [cargando, setCargando] = useState(true)
+    const navigate = useNavigate()
 
     const { id } = useParams()
 
@@ -22,7 +24,7 @@ const VerCliente = () => {
 
             setTimeout(() => {
                 setCargando(!cargando)
-            }, 3000);
+            }, 2000);
 
         }
 
@@ -68,6 +70,19 @@ const VerCliente = () => {
                         <span className='normal-case'>{cliente.notas}</span>
                     </p>
                 )}
+                <button
+                    type='button'
+                    className=' ml-0 mt-5 m-2 inline-block hover:bg-blue-500 text-blue-700
+                        font-semibold hover:text-white py-2 px-4 border border-blue-500
+                        hover:border-transparent rounded'
+                    onClick={() => navigate(`/clientes/editar/${id}`)}    
+                    >Editar</button>
+                <button
+                    type='button' className='m-2 inline-block hover:bg-red-600
+                        text-red-700 font-semibold hover:text-white py-2 px-4 border
+                        border-red-600 hover:border-transparent rounded'
+                    onClick={() => handleDelete(id)}
+                    >Eliminar</button>
             </div>
         )
     )
