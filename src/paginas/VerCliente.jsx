@@ -77,12 +77,7 @@ const VerCliente = () => {
                         hover:border-transparent rounded'
                     onClick={() => navigate(`/clientes/editar/${id}`)}    
                     >Editar</button>
-                <button
-                    type='button' className='m-2 inline-block hover:bg-red-600
-                        text-red-700 font-semibold hover:text-white py-2 px-4 border
-                        border-red-600 hover:border-transparent rounded'
-                    onClick={() => handleDelete(id)}
-                    >Eliminar</button>
+                
             </div>
         )
     )

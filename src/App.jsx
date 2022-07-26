@@ -8,10 +8,11 @@ import VerCliente from './paginas/VerCliente'
 
 function App() {
 
+    console.log()
+
   return (
     <BrowserRouter>
       <Routes>
-
         <Route path='/clientes' element={<Layout />}>
           <Route index element={<Inicio />} />
           <Route path='nuevo' element={<NuevoCliente />} />
